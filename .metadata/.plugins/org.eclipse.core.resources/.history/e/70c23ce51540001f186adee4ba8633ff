@@ -1,0 +1,20 @@
+package com.kh.ch11_api;
+
+public class API01_Math {
+
+	public static void main(String[] args) {
+
+		System.out.println("======java.lang.Math======");
+
+		// ads : 절대값을 구하는 매서드
+		int n = 100;
+		System.out.println("절대값 : " + Math.abs(-10));
+		System.out.println("절대값 : " + Math.abs(n));
+
+		// ceil : 소숫점 올림처리 해주는 메소드
+		double d = 3.14159256;
+		System.out.println(d + "의 값을 올림처리 : " + Math.ceil(d));
+
+	}
+
+}

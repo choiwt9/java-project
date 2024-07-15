@@ -1,0 +1,13 @@
+package com.kh.practice.test2;
+
+public class Task2 {
+
+	public void run() {
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

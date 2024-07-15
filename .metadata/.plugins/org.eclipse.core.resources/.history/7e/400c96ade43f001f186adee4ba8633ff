@@ -1,0 +1,49 @@
+package com.kh.ch07_inheritance;
+
+import java.security.PrivateKey;
+
+public class Fruit {
+	
+	private String name;
+	private int price;
+	
+	public Fruit() {}
+	public Fruit(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
+
+	@Override
+	public String toString() {
+		return "Fruit [name=" + name + ", price=" + price + "]";
+	}
+	/**
+	 * @return the name
+	 */
+	public String getName() {
+		return name;
+	}
+	/**
+	 * @param name the name to set
+	 */
+	public void setName(String name) {
+		this.name = name;
+	}
+	/**
+	 * @return the price
+	 */
+	public int getPrice() {
+		return price;
+	}
+	/**
+	 * @param price the price to set
+	 */
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	public static void main(String[] args) {
+
+		
+	}
+
+}

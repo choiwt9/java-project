@@ -1,0 +1,44 @@
+package com.kh.practice.map.controller;
+
+import java.util.HashMap;
+import java.util.TreeMap;
+
+import com.kh.practice.map.model.vo.Member;
+
+public class MemberController {
+	HashMap<String, Member> map = new HashMap<>();
+	Member m = new Member();
+
+	public boolean joinMembership(String id, Member m) {
+		if (!map.containsKey(id)) {
+			map.put(id, m);
+			return true;
+
+		} else {
+
+			return true;
+		}
+
+	}
+
+	public boolean login(String id, String pw) {
+
+	}
+
+	public boolean changePassword(String id, String oldPw, String newPw) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public void changeName(String id, String newName) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public String searchName
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;objectOrientedProgramming;&apos;&#x0D;&#x0A;- Original project: &apos;objectOrientedProgramming;&apos;&#x0D;&#x0A;- Original element: &apos;objectOrientedProgramming;/src/com.kh.example.practice.review&apos;" description="Delete element" element1="/src&lt;com.kh.example.practice.review" element2="/src&lt;com.kh.example.practice" element3="/src&lt;com.kh.example" element4="/src&lt;com.kh" element5="/src&lt;com" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1718927342873" subPackages="false" version="1.0"/>
+</session>

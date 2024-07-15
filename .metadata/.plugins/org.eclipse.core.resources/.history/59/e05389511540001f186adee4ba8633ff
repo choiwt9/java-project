@@ -1,0 +1,15 @@
+package com.kh.ch11_api;
+
+public class API01_Math {
+
+	public static void main(String[] args) {
+		
+		System.out.println("======java.lang.Math======");
+		
+		// ads : 절대값을 구하는 매서드
+		int n =100;
+          System.out.println("절대값 : " +Math.abs(-10));
+          System.out.println("절대값 : " +Math.abs(n));
+	}
+
+}

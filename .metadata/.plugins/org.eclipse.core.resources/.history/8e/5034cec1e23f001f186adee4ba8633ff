@@ -1,0 +1,15 @@
+package com.kh.ch07_inheritance;
+
+public class Inheritance {
+
+	public static void main(String[] args) {
+		/*
+		 * 상속: 부모 타입이 가지고 있는 변수,메소드를 자식클래스에서 
+		 *      직접 만들지 않고 자신의 변수,메소드처럼 사용할 수 있는 기능
+		 *      
+		 *[표현법]* extends *
+		 *      접근제한자 예약어 class 클래스명 extends 부모클래스명{}
+		 */
+	}
+
+}
